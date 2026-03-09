@@ -1,0 +1,153 @@
+.wrap h1 {
+  margin-bottom: 20px;
+}
+.wrap h2 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+.wrap .form-table {
+  margin-bottom: 20px;
+}
+.wrap .form-table th {
+  width: 200px;
+  font-weight: 600;
+}
+.wrap .form-table input[type=number] {
+  padding: 5px 10px;
+}
+.wrap .category-section,
+.wrap .tag-section {
+  margin-bottom: 30px;
+  padding: 15px;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.wrap .category-section input[type=text],
+.wrap .tag-section input[type=text] {
+  padding: 8px 12px;
+  margin-right: 10px;
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+.wrap .category-section button,
+.wrap .tag-section button {
+  padding: 8px 16px;
+}
+.wrap .category-section #catCandidates,
+.wrap .category-section #tagCandidates,
+.wrap .tag-section #catCandidates,
+.wrap .tag-section #tagCandidates {
+  margin-top: 15px;
+  min-height: 30px;
+}
+.wrap .category-section #catCandidates div,
+.wrap .category-section #tagCandidates div,
+.wrap .tag-section #catCandidates div,
+.wrap .tag-section #tagCandidates div {
+  display: inline-block;
+  margin: 5px;
+  padding: 8px 12px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+.wrap .category-section #catCandidates div button,
+.wrap .category-section #tagCandidates div button,
+.wrap .tag-section #catCandidates div button,
+.wrap .tag-section #tagCandidates div button {
+  margin-left: 8px;
+  padding: 2px 8px;
+  background: #dc3232;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.wrap .category-section #catCandidates div button:hover,
+.wrap .category-section #tagCandidates div button:hover,
+.wrap .tag-section #catCandidates div button:hover,
+.wrap .tag-section #tagCandidates div button:hover {
+  background: #c20000;
+}
+.wrap .category-section #catCandidates p,
+.wrap .category-section #tagCandidates p,
+.wrap .tag-section #catCandidates p,
+.wrap .tag-section #tagCandidates p {
+  color: #666;
+  font-style: italic;
+  margin: 10px 0;
+}
+.wrap #images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 15px;
+  padding: 15px;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.wrap #images .img-label {
+  position: relative;
+  display: block;
+  cursor: pointer;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  background: #fff;
+  transition: all 0.2s;
+}
+.wrap #images .img-label:hover {
+  border-color: #0073aa;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.wrap #images .img-label input[type=checkbox] {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  z-index: 10;
+}
+.wrap #images .img-label img {
+  display: block;
+  width: 120px;
+  height: auto;
+  border-radius: 2px;
+}
+.wrap #images .img-label:has(input:checked) {
+  border-color: #0073aa;
+  background: #e5f5ff;
+}
+.wrap > label {
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 8px 12px;
+  background: #f0f0f0;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.wrap > label input[type=checkbox] {
+  margin-right: 8px;
+  cursor: pointer;
+}
+.wrap .button-primary {
+  margin-top: 20px;
+  padding: 10px 30px !important;
+  font-size: 16px !important;
+}
+.wrap .notice {
+  margin: 15px 0;
+  padding: 12px;
+}
+.wrap .notice p {
+  margin: 0;
+  font-weight: 600;
+}
